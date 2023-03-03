@@ -9,8 +9,8 @@ app.use((req, res, next) => {
 });
 
 //route
-app.get("/api/fauzul",(_req, res) => {
-    res.send("Fauzul");
+app.get("/api/salam",(_req, res) => {
+    res.send("Assalamualaikum Mazz!!!");
 });
 
 app.listen(3000, () => {
